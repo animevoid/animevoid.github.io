@@ -8,16 +8,18 @@
     .catos {
         padding-top: 8rem;
         padding-bottom: 8rem;
-        font-size: 1.5rem;
+        /* font-size: 1.1rem; */
         color: rgb(0, 0, 0);
     }
+    .cath{
+        font-size: 2.5rem;
+    }
     .catos>span:hover {
-
-        transform: scale(1.25);
+        transform: scale(1.4);
       }
 }
 
-@media screen and (min-device-width: 380px) and (max-device-width: 500px) {
+@media screen and (min-device-width: 380px) and (max-device-width: 600px) {
     .header{
         font-size: 1.5rem;
         padding-top: 1rem;
@@ -29,10 +31,12 @@
     .catos {
         padding-top: 9rem;
         padding-bottom: 9rem;
-        font-size: 1.5rem;
         color: rgb(0, 0, 0);
     }
+    .cath{
+        font-size: 3rem;
+    }
     .catos>span:hover {
-        transform: scale(1.35);
+        transform: scale(1.5);
       }
 }
