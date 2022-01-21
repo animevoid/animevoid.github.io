@@ -1,0 +1,38 @@
+@media screen and (min-device-width: 200px) and (max-device-width: 380px) {
+    .header{
+        font-size: 1rem;
+    }
+    #title{
+        font-size: 3rem;
+    }
+    .catos {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+    }
+    .catos>span:hover {
+
+        transform: scale(1.25);
+      }
+}
+
+@media screen and (min-device-width: 380px) and (max-device-width: 500px) {
+    .header{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-top: 1rem;
+    }
+    #title{
+        font-size: 3.5rem;
+    }
+    .catos {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+    }
+    .catos>span:hover {
+        transform: scale(1.35);
+      }
+}
