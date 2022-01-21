@@ -43,6 +43,7 @@ body {
   font-family: 'Amatic SC', cursive;
   overflow-x: hidden;
   overflow-y: hidden;
+  filter: grayscale(100%);
   
   -webkit-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
@@ -65,6 +66,9 @@ body {
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   transform: scale(1.08);
+  filter: grayscale(0);
+  filter: saturate(150%);
+  /* filter: sepia(10%); */
 
 }
 
