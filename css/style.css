@@ -1,6 +1,11 @@
-
-*{
+* {
   scroll-behavior: smooth;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -44,7 +49,7 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   filter: grayscale(100%);
-  
+
   -webkit-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
@@ -71,6 +76,7 @@ body {
   /* filter: sepia(10%); */
 
 }
+
 .cath {
   display: table;
   margin: 0 auto;
