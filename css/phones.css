@@ -1,10 +1,12 @@
 @media screen and (min-device-width: 200px) and (max-device-width: 380px) {
-    .header{
+    .header {
         font-size: 1rem;
     }
-    #title{
+
+    #title {
         font-size: 3rem;
     }
+
     .catos {
         padding-top: 8rem;
         padding-bottom: 8rem;
@@ -12,32 +14,39 @@
         color: rgb(0, 0, 0);
         filter: grayscale(0);
     }
-    .cath{
+    
+    .cath {
         font-size: 2.5rem;
     }
+    
     .catos>span:hover {
         transform: scale(1.4);
-      }
+    }
 }
 
-@media screen and (min-device-width: 380px) and (max-device-width: 600px) {
-    .header{
+@media screen and (min-device-width: 380px) and (max-device-width: 800px) {
+    .header {
         font-size: 1.5rem;
         padding-top: 1rem;
         padding-top: 1rem;
     }
-    #title{
+    
+    #title {
         font-size: 3.5rem;
     }
+    
     .catos {
         padding-top: 9rem;
         padding-bottom: 9rem;
         color: rgb(0, 0, 0);
+        filter: grayscale(0);
     }
-    .cath{
-        font-size: 3rem;
+
+    .cath {
+        font-size: 3.5rem;
     }
+
     .catos>span:hover {
-        transform: scale(1.5);
-      }
+        transform: scale(1.9);
+    }
 }
