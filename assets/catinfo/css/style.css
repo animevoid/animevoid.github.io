@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(10, 33, 233);
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    /* border: 2px solid red; */
+    margin-bottom: 2rem;
+    
+}
+
+.title {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 4rem;
+}
+
+.disc {
+    color: blanchedalmond;
+    font-size: 2rem;
+}
+
+/* gird leearn */
+/* .content {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    background-color: rgb(221, 28, 28);
+    grid-template-columns: 0.6fr 2fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.items {
+    background-color: rgb(196, 187, 201);
+}
+.postertitle{
+    font-size: 2rem;
+    font-style: bold;
+}
+.details{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.tal{
+    align-items: center;
+}
+.watch{
+    font-size: 2rem;
+    padding: 2rem;
+    margin:8rem;
+    justify-content: space-between;
+} */
+
+.container{
+    display: flex;
+    color:rgb(255, 255, 255);
+    /* border: 2px solid rgb(255, 255, 255); */
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.posnh{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2rem;
+    text-align: center;
+}
+.poster{
+    margin:2rem 2rem 0rem 2rem;
+}
+.phead{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.details{
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.synopsis{
+    font-size: 2.1rem;
+    padding: 0.8rem;
+}
+.summry{
+    margin: 1rem;
+    font-size: 1.9rem;
+    font-style: bold;
+}
+.d2{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.imdb{
+    margin: 0.2rem;
+}
+.episodes{
+    margin: 0.2rem;
+}
+
+.box{
+    display: flex;
+    margin: 0.5rem;
+    /* padding: 1rem; */
+
+    /* border: 2px solid red; */
+}
+.watch{
+    font-size: 1.5rem;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 1rem;
+    color: white;
+}
