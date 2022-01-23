@@ -8,6 +8,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-size: 90%;
 }
 
 a {
@@ -16,18 +17,23 @@ a {
 }
 
 body {
-    background-color: black;
+    /* background-color: rgb(255, 255, 255); */
+    /* background-image: url(/assets/catinfo/backgrounds/adevnture.jpg); */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/catinfo/backgrounds/adevnture.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 .header {
     text-align: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
     /* border: 2px solid red; */
     margin-bottom: 2rem;
     
 }
-
 .title {
     font-family: 'Londrina Outline', cursive;
     font-size: 4rem;
@@ -36,46 +42,13 @@ body {
 .disc {
     color: blanchedalmond;
     font-size: 2rem;
+    font-family: 'Special Elite', cursive;
 }
-
-/* gird leearn */
-/* .content {
-    display: grid;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    height: 500px;
-    width: 80%;
-    background-color: rgb(221, 28, 28);
-    grid-template-columns: 0.6fr 2fr;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-
-.items {
-    background-color: rgb(196, 187, 201);
-}
-.postertitle{
-    font-size: 2rem;
-    font-style: bold;
-}
-.details{
-    font-size: 1.5rem;
-    text-align: left;
-}
-.tal{
-    align-items: center;
-}
-.watch{
-    font-size: 2rem;
-    padding: 2rem;
-    margin:8rem;
-    justify-content: space-between;
-} */
 
 .container{
+    font-family: 'Special Elite', cursive;
     display: flex;
-    color:rgb(255, 255, 255);
+    color:rgb(243, 243, 243);
     /* border: 2px solid rgb(255, 255, 255); */
     /* text-align: center; */
     justify-content: center;
@@ -83,27 +56,30 @@ body {
 }
 .posnh{
     border: 2px solid rgb(255, 255, 255);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 .poster{
-    margin:2rem 2rem 0rem 2rem;
+    margin:1rem 1rem 0rem 1rem;
 }
 .phead{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-top: 0.6rem;
     text-align: center;
 }
 
 .details{
-    /* border: 2px solid rgb(255, 255, 255); */
+    border: 2px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
 .synopsis{
-    font-size: 2.1rem;
-    padding: 0.8rem;
+    font-size: 2.0rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    color: yellow;
 }
 .summry{
     margin: 1rem;
@@ -113,6 +89,7 @@ body {
 .d2{
     margin: 1rem;
     font-size: 2rem;
+    font-weight: 700;
 }
 .imdb{
     margin: 0.2rem;
@@ -135,4 +112,7 @@ body {
     margin: 0.5rem;
     padding: 1rem;
     color: white;
+}
+.watch:hover{
+    background: rgb(255, 82, 82);
 }

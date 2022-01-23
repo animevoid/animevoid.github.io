@@ -41,12 +41,12 @@ body {
 }
 
 .catos {
+  font-family: 'Amatic SC', cursive;
   background-position: center;
   background-size: cover;
   padding-top: 12rem;
   padding-bottom: 12rem;
   color: rgb(0, 0, 0);
-  font-family: 'Amatic SC', cursive;
   overflow-x: hidden;
   overflow-y: hidden;
   filter: grayscale(100%);
