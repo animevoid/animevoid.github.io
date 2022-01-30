@@ -17,13 +17,11 @@ a {
 }
 
 body {
-    /* background-color: rgb(255, 255, 255); */
-    /* background-image: url(/assets/catinfo/backgrounds/adevnture.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/catinfo/backgrounds/adevnture.jpg');
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
+    background-position: center;
 }
 
 .header {
@@ -32,7 +30,6 @@ body {
     padding: 1.5rem;
     /* border: 2px solid red; */
     margin-bottom: 2rem;
-
 }
 
 .title {
@@ -123,6 +120,6 @@ body {
     color: white;
 }
 
-.watch:hover  {
+.watch:hover {
     background: rgb(250, 82, 82);
 }
