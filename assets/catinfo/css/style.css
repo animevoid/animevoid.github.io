@@ -19,11 +19,11 @@ a {
 body {
     /* background-color: rgb(255, 255, 255); */
     /* background-image: url(/assets/catinfo/backgrounds/adevnture.jpg); */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/catinfo/backgrounds/adevnture.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/catinfo/backgrounds/adevnture.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+
 }
 
 .header {
@@ -32,8 +32,9 @@ body {
     padding: 1.5rem;
     /* border: 2px solid red; */
     margin-bottom: 2rem;
-    
+
 }
+
 .title {
     font-family: 'Londrina Outline', cursive;
     font-size: 4rem;
@@ -45,74 +46,83 @@ body {
     font-family: 'Special Elite', cursive;
 }
 
-.container{
+.container {
     font-family: 'Special Elite', cursive;
     display: flex;
-    color:rgb(243, 243, 243);
+    color: rgb(243, 243, 243);
     /* border: 2px solid rgb(255, 255, 255); */
     /* text-align: center; */
     justify-content: center;
     /* align-items: center; */
 }
-.posnh{
+
+.posnh {
     border: 2px solid rgb(255, 255, 255);
     padding: 1rem;
     text-align: center;
 }
-.poster{
-    margin:1rem 1rem 0rem 1rem;
+
+.poster {
+    margin: 1rem 1rem 0rem 1rem;
 }
-.phead{
+
+.phead {
     font-size: 2.2rem;
     margin-top: 0.6rem;
     text-align: center;
 }
 
-.details{
+.details {
     border: 2px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-.synopsis{
+
+.synopsis {
     font-size: 2.0rem;
     padding: 0.5rem;
     font-weight: 700;
     color: yellow;
 }
-.summry{
+
+.summry {
     margin: 1rem;
     font-size: 1.9rem;
     font-style: bold;
 }
-.d2{
+
+.d2 {
     margin: 1rem;
     font-size: 2rem;
     font-weight: 700;
 }
-.imdb{
-    margin: 0.2rem;
-}
-.episodes{
+
+.imdb {
     margin: 0.2rem;
 }
 
-.box{
+.episodes {
+    margin: 0.2rem;
+}
+
+.box {
     display: flex;
     margin: 0.5rem;
     /* padding: 1rem; */
-
     /* border: 2px solid red; */
 }
-.watch{
+
+.watch {
     font-size: 1.5rem;
-    border: 2px solid green;
+    border: 2px solid rgb(0, 255, 0);
     border-radius: 10px;
     margin: 0.5rem;
     padding: 1rem;
     color: white;
 }
-.watch:hover{
-    background: rgb(255, 94, 94);
+
+.watch:hover  {
+    background: rgb(250, 82, 82);
 }
